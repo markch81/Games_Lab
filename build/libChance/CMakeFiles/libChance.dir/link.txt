@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc liblibChance.a CMakeFiles/libChance.dir/src/dice.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe liblibChance.a

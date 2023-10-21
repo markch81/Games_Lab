@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libChance",
+					"jsonFile" : "directory-libChance-Debug-bc1f5440e9346cfcaaba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libChance",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MSC_Games_Lab"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libChance",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "libChance::@5fc5d30ffb18a460723a",
+					"jsonFile" : "target-libChance-Debug-253d7c1a39531d650ba0.json",
+					"name" : "libChance",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/DEV/family/Games_Lab/build",
+		"source" : "C:/DEV/family/Games_Lab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
