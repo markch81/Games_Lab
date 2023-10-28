@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.11-3.18)
 
 project(libChance)
 
+find_package(Boost REQUIRED)
+
 add_library(libChance src/dice.cpp)
 
 # PUBLIC needed to make both hello.h and hello library available elsewhere in project
