@@ -1,6 +1,10 @@
+#define PY_SSIZE_T_CLEAN
+#include <python3.10/Python.h>
+
 #include "dice.h"
 #include <boost/random/mersenne_twister.hpp>
 #include <boost/random/uniform_int_distribution.hpp>
+
 
 using namespace MSC_GamesLib::libChance;
 using namespace std;
@@ -15,7 +19,7 @@ Die::Die(const int &sides):
 
 int Die::fRoll()
 {
-    boost::random::uniform_int_distribution<> dist(1, 6);
+    boost::random::uniform_int_distribution<> dist(1, f_sides);
     return dist(gen);
 }
 

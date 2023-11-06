@@ -8,13 +8,13 @@ using namespace std;
 TEST(DiceTest, Test_ONE)
 {
     cout << "Running test one" << endl;
-    MSC_GamesLib::libChance::Die die(6);
-    std::vector<int> result(6,0);
+    MSC_GamesLib::libChance::Die die(20);
+    std::vector<int> result(20,0);
 
     for(int i=0;i<1000000;i++)
     {
         int roll = die.fRoll();
-        if(roll >= 1 && roll <= 6)
+        if(roll >= 1 && roll <= 20)
         {
             result[roll-1]++;
         }

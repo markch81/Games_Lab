@@ -11,4 +11,6 @@ project(
 enable_testing()
 
 add_subdirectory(libChance)   # look in hello subdirectory for CMakeLists.txt to process
+add_subdirectory(libCharacter)
+add_subdirectory(libGame)
 add_subdirectory(Test)
