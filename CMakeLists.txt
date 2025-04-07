@@ -14,3 +14,4 @@ add_subdirectory(libChance)   # look in hello subdirectory for CMakeLists.txt to
 add_subdirectory(libCharacter)
 add_subdirectory(libGame)
 add_subdirectory(Test)
+add_subdirectory(HanChou)
