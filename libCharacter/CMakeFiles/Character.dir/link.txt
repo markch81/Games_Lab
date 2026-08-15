@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCharacter.a CMakeFiles/Character.dir/src/character.cpp.o CMakeFiles/Character.dir/src/abilities.cpp.o
+/usr/bin/ranlib libCharacter.a

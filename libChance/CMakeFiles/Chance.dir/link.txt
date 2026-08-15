@@ -1,0 +1,2 @@
+/usr/bin/ar qc libChance.a CMakeFiles/Chance.dir/src/dice.cpp.o
+/usr/bin/ranlib libChance.a
