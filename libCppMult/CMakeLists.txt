@@ -1,11 +1,11 @@
 # version 3.11 or later of CMake or needed later for installing GoogleTest
 # so let's require it now.
-cmake_minimum_required(VERSION 3.11-3.18)
+cmake_minimum_required(VERSION 3.30)
 
 project(CppMult)
 
 find_package(Boost REQUIRED)
-find_package(PythonLibs REQUIRED)
+find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
 find_package(pybind11 CONFIG REQUIRED)
 
 include_directories(${PYTHON_INCLUDE_DIRS})
