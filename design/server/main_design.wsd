@@ -1,0 +1,10 @@
+@startuml
+
+abstract class Game
+abstract class Object
+abstract class Character implements Object
+abstract class Vehicle implements Object
+
+Game o-- Object
+
+@enduml
